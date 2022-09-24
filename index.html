@@ -1,0 +1,109 @@
+<!DOCTYPE html>//html solo sirve para estructurar una web, no para darle diseño, para eso esta css.
+<html lang="en">
+<head>
+    <meta charset="UTF-8">//para incluir caracteres especiales còmo acentos, los metadatos son etiquetas que mejoran la configuraciònn
+    del sitio web.
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="harina, leche, huevos, galletitas">//palabras claves para favorecer al SEO
+    <meta name="description" content="Alimentos S.A es una compañìa destinada a brindar los mejores alimentos en calidad tiempo y forma">
+    //debe tener de 70 a 150 caracteres como màximo, descripciòn del sitio web.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Dalto">
+    <meta name="copyright" content="Alimentos S.A">
+    <meta name="robots" content="index">//si una pàgina es indexable le aparecera a una persona cuando busque info de ella, si es no index
+    no aparecera al pùblico.
+    <link rel="icon" href="lucas.ico">//para que la tabla de la pàgina se cargue con el icono, siempre debe ser .ico.
+    <title>Mi primera pàgina web</title>
+</head>//en html no importa el diseño de la pàgina, solo importa la identaciòn del còdigo.
+<body>//todo sitio web debe tener una pàgina index, la cual es la principal de todas las otras.
+    <header>
+        <nav>//es el encabezado, logo de la plataforma, opciones de usuario o demàs opciones personales.(es como la misma barra de navegaciòn)
+            <ul>// en vez de puntos se podrìan utilizar nùmeros con ol y no ul.
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>//etiqueta para crear una lista. 
+            </ul>
+        </nav>
+    </header>
+    <center><table>//se agrupan datos del mismo tipo en columnas
+        <tr>
+            <td>Nombre</td>
+            <td>Apellido</td>
+            <td>Canal</td>
+            <td>Seguidores</td>
+        </tr>
+        <tr>
+            <td>Lucas </td>
+            <td>Dalto</td>
+            <td>TodoTendencias</td>
+            <td>195.000</td>
+        </tr>
+        <tr>
+            <td>Juan </td>
+            <td>Villalvazo</td>
+            <td>JuanVillalvazo</td>
+            <td>500.000</td>
+        </tr>
+    </table></center>
+    <a href=#codigo>ultima parte</a>
+    <div>//el div me permite crear cajas para ajustar el contenido que se encuentre adentro, separar el contenido de la pàgina
+        <aside>//el aside es lo que va al lado del article, por lo general es informaciòn adicional que permite navegar y entrar
+            o conocer màs articulos de la pàgina.
+            <h2></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit labore numquam 
+                explicabo exercitationem. Iure a nisi fugiat in at nobis nihil? Fuga ab aspernatur,
+                 libero soluta architecto placeat dicta ex.
+            </p>
+        </aside>
+    </div>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nostrum nesciunt modi sit 
+        id voluptates, unde dolore fugiat aut perferendis eligendi facilis. Totam impedit minus cumque quis tempore. Sunt, dolorum?</h1>//el h1 posiciona en google, abusar de el hace que google desaparezca de 
+    la bùsqueda en google, h4,h5,h6 van disminuyendo poco a poco pero se puede abusar
+    de ellos//.
+    <p>Lorem <strike>ipsum dolor sit amet </strike>consectetur <i>adipisicing elit</i>. Amet ullam, modi ea tempora numquam 
+        asperiores, iure ut eaque a et voluptas vel <b>reiciendis quidem quasi</b>. <small>Quo ullam et sequi culpa?</small>
+    </p>
+        <h2></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, ducimus! Natus exercitationem quas suscipit maiores dolore libero, labore autem ad sit asperiores beatae id tenetur velit. Vero excepturi sint amet.</p>
+    <article>//el articulo tiene varias secciones, no solo una, permite separar contenidos dentro de la pàgina, màs 
+        que todo para blogs.
+        <section>
+        
+        </section>
+        <section>
+
+        </section>
+    </article>
+    <forms method="post"> //cuando se trabaje cuon el backend se deben mandar los datos al servidor para eso se usa el mètodo post 
+        <input type="text" name="" required="">
+        <input type="password" name="" required="">
+        <input type="number" name="" required="">
+        <input type="email" name=""  required="">//esta validaciòn se hace por lo general desde el lado del backend.
+        <input type="color" name="" required="">
+        <input type="range">
+        <input type="date">
+        <input type="time">
+        <input type="button">
+        <input type="submit">
+        <textarea>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequuntur minima neque quod 
+            et debitis omnis, unde esse quasi, laborum voluptatibus, repellat temporibus ipsum placeat velit fugiat 
+            inventore quia excepturi.</textarea>//permite agregar texto al final de un formulario
+    </forms>
+    <img src=".png" alt="Lucas Dalto" title="Programador">//alt es lo que se muestra cuando no se carga la imagen, title es lo que aparece 
+    cuando se pasa con el mouse por encima de la imagen.
+    <video src=".mp4" controls=""></video>//controls muestra los controles por defecto del navegador
+    <a href="https://www.facebook.com">Informaciòn</a>//si queremos agregar un archivo .html debemos o bien sea devolvernos 
+        de carpeta con cosas/ o bien puede ser ../
+    <h2 id="codigo">El codigo es ajsifjaodfjoahsdasd</h2>
+    <footer>//es el pie de pàgina de la web, permite ingresar forma de contacto del propietario, copyright info o redes sociales de las personas
+        permite mostrar màs contenidos de  la pàgina.
+        <h4>Todos los derechos reservados Alimentos S.A</h4>
+        <p><b>Seguinos en nuestras redes</b></p>
+        <a href="https://www.instagram.com">Instagram</a>
+        <a href="https://www.instagram.com">Twitter</a>
+        <a href="https://www.instagram.com">Facebook</a>
+    </footer>
+</body>
+</html>
